@@ -14,6 +14,6 @@ spring:
 
   liquibase:
     default-schema: ${POSTGRES_SCHEMA:public}
-    change-log: classpath:db.changelog/db.changelog-master.xml
+    change-log: classpath:db.changelog/db.changelog-master-1.xml
     enabled: true
-    contexts: defects
+    contexts: defects_2
