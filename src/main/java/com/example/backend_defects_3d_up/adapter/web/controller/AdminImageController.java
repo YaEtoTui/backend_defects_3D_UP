@@ -20,7 +20,7 @@ public class AdminImageController {
     PictureService pictureService;
 
     //update
-    @PostMapping("/new_file/{id}")
+    @PutMapping("/new_file/{id}")
     @SneakyThrows
     public ResponseEntity<?> addPathFileInDB(@PathVariable("id") int id,
                                              @RequestParam("file") MultipartFile file) {
