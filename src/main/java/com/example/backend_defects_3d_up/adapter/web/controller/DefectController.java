@@ -1,8 +1,7 @@
-package com.example.backend_defects_3d_up.controller;
+package com.example.backend_defects_3d_up.adapter.web.controller;
 
 import com.example.backend_defects_3d_up.domain.dto.response.DefectResponse;
 import com.example.backend_defects_3d_up.service.impl.DefectServiceImpl;
-import lombok.NonNull;
 import lombok.RequiredArgsConstructor;
 import lombok.experimental.FieldDefaults;
 import org.springframework.http.*;

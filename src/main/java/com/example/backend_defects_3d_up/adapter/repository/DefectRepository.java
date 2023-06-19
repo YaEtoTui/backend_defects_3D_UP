@@ -1,6 +1,6 @@
-package com.example.backend_defects_3d_up.repository;
+package com.example.backend_defects_3d_up.adapter.repository;
 
-import com.example.backend_defects_3d_up.domain.dto.entity.Defect;
+import com.example.backend_defects_3d_up.domain.entity.Defect;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

@@ -1,9 +1,9 @@
 package com.example.backend_defects_3d_up.service.impl;
 
-import com.example.backend_defects_3d_up.domain.dto.entity.Defect;
+import com.example.backend_defects_3d_up.domain.entity.Defect;
 import com.example.backend_defects_3d_up.domain.dto.response.DefectResponse;
-import com.example.backend_defects_3d_up.mapper.DefectResponseMapper;
-import com.example.backend_defects_3d_up.repository.DefectRepository;
+import com.example.backend_defects_3d_up.service.factory.DefectFactory;
+import com.example.backend_defects_3d_up.adapter.repository.DefectRepository;
 import com.example.backend_defects_3d_up.service.DefectService;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
@@ -25,7 +25,7 @@ import static lombok.AccessLevel.PRIVATE;
 @FieldDefaults(level = PRIVATE, makeFinal = true)
 public class DefectServiceImpl implements DefectService {
     DefectRepository defectsRepository;
-    DefectResponseMapper defectResponseMapper;
+    DefectFactory defectResponseMapper;
 
     @Override
     @Transactional

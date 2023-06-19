@@ -1,4 +1,4 @@
-package com.example.backend_defects_3d_up.controller;
+package com.example.backend_defects_3d_up.adapter.web.controller;
 
 import com.example.backend_defects_3d_up.service.impl.DefectServiceImpl;
 import lombok.RequiredArgsConstructor;

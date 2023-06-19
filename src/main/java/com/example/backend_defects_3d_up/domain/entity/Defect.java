@@ -1,11 +1,14 @@
-package com.example.backend_defects_3d_up.domain.dto.entity;
+package com.example.backend_defects_3d_up.domain.entity;
 
 import jakarta.persistence.*;
-import lombok.Data;
+import lombok.*;
 
 @Entity
 @Table(name = "defects")
-@Data
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
 public class Defect {
     @Id
     Integer id;
